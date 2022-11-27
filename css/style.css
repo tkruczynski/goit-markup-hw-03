@@ -1,0 +1,229 @@
+body {
+  font-family: Roboto, Raleway;
+  color: E5E5E5;
+  width: 1600px;
+  height: 2837px;
+}
+.logo-top {
+  text-decoration: none;
+}
+header a :hover {
+  color: rgb(28, 253, 12);
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.logo-web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #2196f3;
+  letter-spacing: 0.03em;
+}
+.logo-studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: black;
+  letter-spacing: 0.03em;
+}
+.nav1 {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 452px;
+  top: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.nav2 {
+  position: absolute;
+  width: 57px;
+  height: 16px;
+  left: 551px;
+  top: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.nav3 {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 673px;
+  top: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-email {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.header-phone {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
+button {
+  color: white;
+  position: absolute;
+  background: #2196f3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 42px;
+  /* identical to box height, or 188% */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  left: 700px;
+  top: 430px;
+  width: 200px;
+  height: 50px;
+}
+p {
+  color: #757575;
+}
+h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-member {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.logo-web {
+  font-family: Raleway;
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.logo-studio-footer {
+  font-family: Raleway;
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+footer a :hover {
+  color: rgb(28, 253, 12);
+  text-decoration: none;
+}
+.logo-bottom {
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  background: #2f303a;
+}
+.address-style {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
