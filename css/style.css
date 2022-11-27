@@ -36,14 +36,12 @@ ul {
   height: 16px;
   left: 452px;
   top: 23px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 
@@ -53,14 +51,12 @@ ul {
   height: 16px;
   left: 551px;
   top: 23px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 
@@ -70,14 +66,12 @@ ul {
   height: 16px;
   left: 673px;
   top: 23px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 .header-email {
@@ -86,14 +80,12 @@ ul {
   height: 16px;
   left: 1078px;
   top: 32px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 
@@ -120,9 +112,9 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 188%;
+  /* identical to box height*/
   padding-left: 42px;
-  /* identical to box height, or 188% */
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -135,6 +127,7 @@ button {
 }
 p {
   color: #757575;
+  line-height: 171%;
 }
 h3 {
   font-family: 'Roboto';
@@ -144,7 +137,6 @@ h3 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 h2 {
@@ -170,8 +162,7 @@ h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: 136%;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -213,8 +204,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 171%;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
@@ -222,8 +212,7 @@ footer {
 .contact-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* identical to box height, or 171% */
+  line-height: 171%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
