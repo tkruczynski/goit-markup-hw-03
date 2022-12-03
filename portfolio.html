@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/portstyle.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1>Portfolio</h1>
+
+  <body class="wrapper">
+    <header class="header-top">
+      <a class="logo-top" href="index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+      <nav>
+        <!-- Nawigacja do innych stron -->
+        <ul>
+        <li> <a class="nav-look"href="index.html">Agencja</a></li>
+          <li> <a class="nav-look" href="portfolio.html"><span class="port-color">Portfolio</span></a></li>
+          <li> <a class="nav-look" href="kontakt.html">Kontakt</a></li>
+        </ul>
+        
+      </nav>
+
+      <ul>
+        <li><a href="mailto:info@devstudio.com"><span class="header-email">info@devstudio.com</span></a></li>
+        <li><a  href="tel:+48111111111"><span class="header-phone">+48 111 111 111</span></a></li>
+    
+      </header>
+    
+
+        <section class="filters">
+        <ul>  
+            <li><button type="button" class="filter-data">Wszystkie</button></li>
+<li><button type="button" class="filter-data">Strony</button></li>
+<li><button type="button" class="filter-data">Aplikacje</button></li>
+<li><button type="button" class="filter-data">Design</button></li>
+<li><button type="button" class="filter-data">Marketing</button></li>
+</ul>  
+<article>
+   <ul>
+        <li><img src="images/port/pimg1.jpg" alt="Laptop z projektem strony internetowej" width: "370px" height:"294px"><h3 class="img-head">Technocrack</h3><p class="img-text">Strona internetowa</p></li>
+        <li><img src="images/port/pimg2.jpg" alt="Projekt grafiki komputerowej - koszykarze" width: "370px" height:"294px"><h3 class="img-head">Grafika New Orlean vs Golden Star</h3><p class="img-text">Design</p></li>
+        <li><img src="images/port/pimg3.jpg" alt="Logo restauracji The Seafood" width: "370px" height:"294px"><h3 class="img-head">Restauracja Seafood</h3><p class="img-text">Aplikacja</p></li>
+        <li><img src="images/port/pimg4.jpg" alt="Słuchawki - projekt/logo" width: "370px" height:"294px"><h3 class="img-head">Projekt Prime</h3><p class="img-text">Marketing</p></li>
+        <li><img src="images/port/pimg5.jpg" alt="Pudełka - grafika 3d dla projektu" width: "370px" height:"294px"><h3 class="img-head">Projekt Boxes</h3><p class="img-text">Aplikacja</p></li>
+        <li><img src="images/port/pimg6.jpg" alt="Monitor, ekran, strona internetowa" width: "370px" height:"294px"><h3 class="img-head">Inspiration has no Borders</h3><p class="img-text">Strona internetowa</p></li>
+        <li><img src="images/port/pimg7.jpg" alt="Strona - okładka magazynu" width: "370px" height:"294px"><h3 class="img-head">Magazyn Limited Edition</h3><p class="img-text">Design</p></li>
+        <li><img src="images/port/pimg8.jpg" alt="Projekt Lab Logo - etykieta na sznurku" width: "370px" height:"294px"><h3 class="img-head">Projekt LAB</h3><p class="img-text">Marketing</p></li>
+        <li><img src="images/port/pimg9.jpg" alt="Ekran, programista, laptop - projekt aplikacji" width: "370px" height:"294px"><h3 class="img-head">Growing Business</h3><p class="img-text">Aplikacja</p></li>
+    </ul>
+</article>
+        </section>
+        <footer>
+      <a class="logo-bottom" href="index.html"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
+      <address>
+       <ul>
+         <li>
+          <a class="address-style" href="https://goo.gl/maps/rMT2Ymf6yajYnDqk7">
+            m. Warszawa, Aleje Jerozolimskie 21</a></li>
+          
+<ul>
+         <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+         <li><a class="contact-link" href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>
