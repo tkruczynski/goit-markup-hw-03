@@ -1,21 +1,42 @@
 body {
   font-family: Roboto, sans-serif;
-  background-color: #ffffff;
   letter-spacing: 0.03em;
   color: #212121;
   font-size: 14px;
 }
-wrapper. {
+.wrapper {
   max-width: 1600px;
+  max-height: 2349px;
 }
+
 .logo-top {
   text-decoration: none;
+  padding-left: 215px;
+}
+.header-view {
+  max-width: 1600px;
+  max-height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px;
+  border-color: #ececec;
 }
 header :hover {
   color: #2196f3;
 }
 header a {
   text-decoration: none;
+}
+.nav-set {
+  padding-left: 93px;
+
+  display: flex;
+  gap: 46px;
+}
+.contact-set {
+  display: flex;
+  gap: 50px;
+  padding-left: 371px;
 }
 ul {
   list-style: none;
@@ -78,22 +99,40 @@ nav a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  width: 110px;
-  height: 16px;
 }
 .hero {
   background-color: #2f303a;
+  height: 600px;
+  width: 1600px;
 }
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 696px;
+  height: 120px;
+  padding-top: 200px;
+  padding-left: 452px;
+}
+
 .hero-button {
   font-family: Roboto;
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.88;
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.06em;
+  height: 50px;
+  width: 200px;
+  margin-left: 700px;
 }
 
 p {
@@ -108,15 +147,6 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
 
 .logo-studio-footer {
   font-family: Raleway;
@@ -128,6 +158,9 @@ p {
 }
 footer {
   background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+  display: block;
 }
 
 footer :hover {
@@ -135,6 +168,15 @@ footer :hover {
 }
 .logo-bottom {
   text-decoration: none;
+  position: absolute;
+  padding-left: 215px;
+  padding-bottom: 161px;
+  padding-top: 60px;
+}
+.address-set {
+  position: absolute;
+  padding-left: 215px;
+  padding-top: 111px;
 }
 
 .address-style {
@@ -145,6 +187,7 @@ footer :hover {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  display: inline-flex;
 }
 .contact-link {
   font-style: normal;
@@ -155,16 +198,40 @@ footer :hover {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.section-set {
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1;
   letter-spacing: 0.03em;
   color: #212121;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.section-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.futures-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 94px;
 }
 .futures {
   background-color: #ffffff;
+  margin-bottom: 94px;
 }
+.future1 {
+  width: 270px;
+  height: 101px;
+  margin-top: 94px;
+}
+
 .futures-title {
   font-weight: 700;
   font-size: 14px;
@@ -179,6 +246,26 @@ footer :hover {
 }
 .team {
   background-color: #f5f4fa;
+  max-width: 1600px;
+  height: 648px;
+  margin-top: 94px;
+
+  align-items: center;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+  align-items: center;
+}
+.team-member {
+  display: flex;
+  justify-content: center;
+}
+.team-text {
+  display: flex;
+  justify-content: center;
 }
 .team-text {
   font-weight: 400;
@@ -187,19 +274,50 @@ footer :hover {
   color: #757575;
 }
 .img-head {
+  width: 322px;
+  height: 36px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
+  margin-bottom: 4px;
+  padding-left: 20px;
 }
 .img-text {
+  width: 322px;
+  height: 30px;
   font-size: 16px;
   line-height: 1.88;
+  padding-left: 20px;
 }
 .filter-data {
   font-weight: 500;
+
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.39;
   letter-spacing: 0.03em;
   color: #212121;
+  background-color: #000000 25%;
+  padding: 6px 22px;
+}
+.containers {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.filters-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.items-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.project-view {
+  border-bottom: solid 1px;
+  border-color: #ececec;
 }
