@@ -345,7 +345,8 @@ footer :hover {
   letter-spacing: 0.06em;
   color: var(--main-text-color);
   margin-bottom: 4px;
-  padding-left: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
   display: flex;
 }
 .img-text {
@@ -353,7 +354,8 @@ footer :hover {
   height: 30px;
   font-size: 16px;
   line-height: 1.88;
-  padding-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .filter-button {
   font-weight: 500;
