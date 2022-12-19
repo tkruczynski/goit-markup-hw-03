@@ -1,5 +1,4 @@
-:root 
-{
+:root {
   --main-text-color: #212121;
   --secondary-text-color: #ffffff;
   --over-text-color: #757575;
@@ -32,19 +31,17 @@ body {
 }
 
 section {
-  padding-bottom: 94px;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 a {
   margin: 0px;
 }
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 0;
-  align-content: center;
+  padding: 0 15px;
 }
 
 .logo-top {
@@ -54,14 +51,12 @@ a {
 }
 .header-content {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .header-view {
   height: 80px;
   display: flex;
-  align-items: center;
-  flex-direction: row;
+
   border-bottom: solid 1px;
   border-color: var(--line-color);
 }
@@ -73,7 +68,7 @@ header a {
 }
 .nav-set {
   gap: 46px;
-  padding-left: 93px;
+  margin-left: 93px;
   display: flex;
   align-items: center;
 }
@@ -84,7 +79,13 @@ header a {
 }
 ul {
   list-style: none;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 nav a {
@@ -176,7 +177,7 @@ nav a {
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.06em;
-
+  border: none;
   min-width: 200px;
 
   border-radius: 4px;
@@ -185,6 +186,7 @@ nav a {
 button:hover {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
+  cursor: pointer;
 }
 .hero p {
   color: var(--over-text-color);
@@ -202,10 +204,7 @@ button:hover {
 }
 footer {
   background-color: var(--background-footer-color);
-  width: 100%;
-  height: 252px;
-  margin: 0px;
-  justify-content: center;
+  padding: 60px 0;
 }
 
 footer :hover {
@@ -213,26 +212,25 @@ footer :hover {
 }
 .logo-bottom {
   text-decoration: none;
-  position: absolute;
-  padding-left: 215px;
-  padding-bottom: 161px;
-  padding-top: 60px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .address-set {
-  position: absolute;
-  padding-left: 215px;
-  padding-top: 111px;
+  margin-bottom: 9px;
+  margin-top: 20px;
 }
 
 .address-style {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
   text-decoration: none;
-  display: inline-flex;
+  color: var(--secondary-text-color);
+}
+.contact-gap {
+  margin-bottom: 9px;
 }
 .contact-link {
   font-style: normal;
@@ -253,10 +251,8 @@ footer :hover {
   line-height: 1;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  display: flex;
-  justify-content: center;
-
-  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .section-list {
   display: flex;
@@ -297,14 +293,13 @@ footer :hover {
 }
 .team {
   background-color: var(--buttons-port-color);
-  max-width: 100%;
-  height: 648px;
+  width: 100%;
   margin: 0px;
   align-items: center;
 }
 
 .team-list-item {
-  height: 368px;
+  text-align: center;
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -317,19 +312,17 @@ footer :hover {
   align-items: center;
 }
 .team-member {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 10px;
-  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-bottom: 10px;
 }
-.team-text {
-  display: flex;
-  justify-content: center;
+.team-set {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .team-text {
   font-weight: 400;
@@ -338,24 +331,23 @@ footer :hover {
   color: var(--over-text-color);
 }
 .img-head {
-  height: 36px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
-  margin-bottom: 4px;
+
   margin-left: 20px;
-  margin-top: 20px;
   display: flex;
 }
 .img-text {
-  width: 322px;
-  height: 30px;
   font-size: 16px;
   line-height: 1.88;
   margin-left: 20px;
-  margin-bottom: 20px;
+}
+.img-set {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .filter-button {
   font-weight: 500;
@@ -373,7 +365,7 @@ footer :hover {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 }
 .items-grid {
   display: flex;
@@ -381,7 +373,7 @@ footer :hover {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  padding-left: 0;
+  margin-left: 0;
 }
 .project-view {
   border-bottom: solid 1px;
