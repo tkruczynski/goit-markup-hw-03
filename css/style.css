@@ -229,7 +229,7 @@ footer :hover {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
-.contact-gap {
+.contact-gap:not(:last-child) {
   margin-bottom: 9px;
 }
 .contact-link {
@@ -336,27 +336,30 @@ footer :hover {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
-
-  margin-left: 20px;
-  display: flex;
+  margin-bottom: 4px;
 }
 .img-text {
   font-size: 16px;
   line-height: 1.88;
-  margin-left: 20px;
+  color: var(--over-text-color);
 }
 .img-set {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: solid 1px;
+  border-color: var(--line-color);
+  border-top: 0;
 }
 .filter-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.39;
+  line-height: 1.63;
   letter-spacing: 0.03em;
 
   background-color: var(--buttons-port-color);
-  padding: 6px 22px;
+  padding: 6px 25px;
   border-radius: 4px;
   border-style: none;
 }
@@ -365,7 +368,7 @@ footer :hover {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .items-grid {
   display: flex;
@@ -376,7 +379,5 @@ footer :hover {
   margin-left: 0;
 }
 .project-view {
-  border-bottom: solid 1px;
-  border-color: var(--line-color);
   margin: 0 auto;
 }
