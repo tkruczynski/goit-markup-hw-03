@@ -221,7 +221,8 @@ footer :hover {
   text-decoration: none;
 }
 .address-set {
-  margin-bottom: 9px;
+  font-style: normal;
+
   margin-top: 20px;
 }
 
